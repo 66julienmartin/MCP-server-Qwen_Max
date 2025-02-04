@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server implementation for the Qwen Max language model.
 
+[![smithery badge](https://smithery.ai/badge/@66julienmartin/MCP-server-Qwen_Max)](https://smithery.ai/server/@66julienmartin/MCP-server-Qwen_Max)
+
 Why Node.js?
 This implementation uses Node.js/TypeScript as it currently provides the most stable and reliable integration 
 with MCP servers compared to other languages like Python. The Node.js SDK for MCP offers better type safety, 
@@ -16,6 +18,15 @@ error handling, and compatibility with Claude Desktop.
 
 ## Installation
 
+### Installing via Smithery
+
+To install Qwen Max MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@66julienmartin/MCP-server-Qwen_Max):
+
+```bash
+npx -y @smithery/cli install @66julienmartin/MCP-server-Qwen_Max --client claude
+```
+
+### Manual Installation
 ```bash
 git clone https://github.com/66julienmartin/MCP-server-Qwen-Max-model.git
 cd Qwen_Max
