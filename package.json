@@ -1,0 +1,22 @@
+{
+    "name": "qwen_max",
+    "version": "1.0.0",
+    "type": "module",
+    "bin": {
+      "qwen_max": "./build/index.js"
+    },
+    "scripts": {
+      "build": "tsc",
+      "start": "node build/index.js",
+      "dev": "tsc --watch"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "0.6.0",
+      "dotenv": "^16.4.7",
+      "openai": "^4.80.1"
+    },
+    "devDependencies": {
+      "@types/node": "^20.11.24",
+      "typescript": "^5.3.3"
+    }
+  }
