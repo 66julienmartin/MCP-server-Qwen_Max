@@ -2,6 +2,11 @@
 
 A Model Context Protocol (MCP) server implementation for the Qwen Max language model.
 
+Why Node.js?
+This implementation uses Node.js/TypeScript as it currently provides the most stable and reliable integration 
+with MCP servers compared to other languages like Python. The Node.js SDK for MCP offers better type safety, 
+error handling, and compatibility with Claude Desktop.
+
 ## Prerequisites
 
 - Node.js (v18 or higher)
