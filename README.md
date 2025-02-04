@@ -12,7 +12,7 @@ A Model Context Protocol (MCP) server implementation for the Qwen Max language m
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/Qwen_Max.git
+git clone https://github.com/66julienmartin/MCP-server-Qwen-Max-model.git
 cd Qwen_Max
 npm install
 ```
