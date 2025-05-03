@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/66julienmartin-mcp-server-qwen-max-badge.png)](https://mseep.ai/app/66julienmartin-mcp-server-qwen-max)
+
 # Qwen Max MCP Server
 
 A Model Context Protocol (MCP) server implementation for the Qwen Max language model.
